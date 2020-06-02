@@ -3,12 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		7A9CBEF62F5BC0E58131B3C4 /* Pods_Fissure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF90CE33FE788F0C2958D34 /* Pods_Fissure.framework */; };
 		EC98D92B2487100900211B77 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC98D92A2487100900211B77 /* GoogleService-Info.plist */; };
+		EC98D92D24871A6F00211B77 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC98D92C24871A6F00211B77 /* DataService.swift */; };
 		ECEFDC132486BFCA00D862F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEFDC122486BFCA00D862F6 /* AppDelegate.swift */; };
 		ECEFDC152486BFCB00D862F6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEFDC142486BFCB00D862F6 /* SceneDelegate.swift */; };
 		ECEFDC172486BFCB00D862F6 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEFDC162486BFCB00D862F6 /* FirstViewController.swift */; };
@@ -23,6 +24,7 @@
 		789885D885F74F4EF39970A0 /* Pods-Fissure.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fissure.debug.xcconfig"; path = "Target Support Files/Pods-Fissure/Pods-Fissure.debug.xcconfig"; sourceTree = "<group>"; };
 		C596C6E97D3E68F11C005FE6 /* Pods-Fissure.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fissure.release.xcconfig"; path = "Target Support Files/Pods-Fissure/Pods-Fissure.release.xcconfig"; sourceTree = "<group>"; };
 		EC98D92A2487100900211B77 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EC98D92C24871A6F00211B77 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		ECEFDC0F2486BFCA00D862F6 /* Fissure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fissure.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECEFDC122486BFCA00D862F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECEFDC142486BFCB00D862F6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,7 +62,6 @@
 				789885D885F74F4EF39970A0 /* Pods-Fissure.debug.xcconfig */,
 				C596C6E97D3E68F11C005FE6 /* Pods-Fissure.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -134,6 +135,7 @@
 		ECEFDC2C2486C17300D862F6 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				EC98D92C24871A6F00211B77 /* DataService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -258,6 +260,7 @@
 				ECEFDC172486BFCB00D862F6 /* FirstViewController.swift in Sources */,
 				ECEFDC132486BFCA00D862F6 /* AppDelegate.swift in Sources */,
 				ECEFDC152486BFCB00D862F6 /* SceneDelegate.swift in Sources */,
+				EC98D92D24871A6F00211B77 /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
