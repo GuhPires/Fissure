@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A9CBEF62F5BC0E58131B3C4 /* Pods_Fissure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF90CE33FE788F0C2958D34 /* Pods_Fissure.framework */; };
+		EC98D92B2487100900211B77 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC98D92A2487100900211B77 /* GoogleService-Info.plist */; };
 		ECEFDC132486BFCA00D862F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEFDC122486BFCA00D862F6 /* AppDelegate.swift */; };
 		ECEFDC152486BFCB00D862F6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEFDC142486BFCB00D862F6 /* SceneDelegate.swift */; };
 		ECEFDC172486BFCB00D862F6 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEFDC162486BFCB00D862F6 /* FirstViewController.swift */; };
@@ -17,6 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5AF90CE33FE788F0C2958D34 /* Pods_Fissure.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fissure.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		789885D885F74F4EF39970A0 /* Pods-Fissure.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fissure.debug.xcconfig"; path = "Target Support Files/Pods-Fissure/Pods-Fissure.debug.xcconfig"; sourceTree = "<group>"; };
+		C596C6E97D3E68F11C005FE6 /* Pods-Fissure.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fissure.release.xcconfig"; path = "Target Support Files/Pods-Fissure/Pods-Fissure.release.xcconfig"; sourceTree = "<group>"; };
+		EC98D92A2487100900211B77 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		ECEFDC0F2486BFCA00D862F6 /* Fissure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fissure.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECEFDC122486BFCA00D862F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECEFDC142486BFCB00D862F6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -33,17 +39,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A9CBEF62F5BC0E58131B3C4 /* Pods_Fissure.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		79FF05578E26EEFB1B451DA1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5AF90CE33FE788F0C2958D34 /* Pods_Fissure.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B010E3BCB710403436B96EB0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				789885D885F74F4EF39970A0 /* Pods-Fissure.debug.xcconfig */,
+				C596C6E97D3E68F11C005FE6 /* Pods-Fissure.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		ECEFDC062486BFC900D862F6 = {
 			isa = PBXGroup;
 			children = (
 				ECEFDC112486BFCA00D862F6 /* Fissure */,
 				ECEFDC102486BFCA00D862F6 /* Products */,
+				B010E3BCB710403436B96EB0 /* Pods */,
+				79FF05578E26EEFB1B451DA1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -69,6 +96,7 @@
 				ECEFDC1D2486BFEF00D862F6 /* Assets.xcassets */,
 				ECEFDC1F2486BFEF00D862F6 /* LaunchScreen.storyboard */,
 				ECEFDC222486BFEF00D862F6 /* Info.plist */,
+				EC98D92A2487100900211B77 /* GoogleService-Info.plist */,
 			);
 			path = Fissure;
 			sourceTree = "<group>";
@@ -117,9 +145,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ECEFDC252486BFEF00D862F6 /* Build configuration list for PBXNativeTarget "Fissure" */;
 			buildPhases = (
+				EE10D48CD20CDB61DEAA8BD8 /* [CP] Check Pods Manifest.lock */,
 				ECEFDC0B2486BFCA00D862F6 /* Sources */,
 				ECEFDC0C2486BFCA00D862F6 /* Frameworks */,
 				ECEFDC0D2486BFCA00D862F6 /* Resources */,
+				A1BBD07BDDFE6E5B21185C1F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -169,12 +199,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECEFDC212486BFEF00D862F6 /* LaunchScreen.storyboard in Resources */,
+				EC98D92B2487100900211B77 /* GoogleService-Info.plist in Resources */,
 				ECEFDC1E2486BFEF00D862F6 /* Assets.xcassets in Resources */,
 				ECEFDC1C2486BFCB00D862F6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A1BBD07BDDFE6E5B21185C1F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fissure/Pods-Fissure-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fissure/Pods-Fissure-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Fissure/Pods-Fissure-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE10D48CD20CDB61DEAA8BD8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fissure-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		ECEFDC0B2486BFCA00D862F6 /* Sources */ = {
@@ -326,6 +399,7 @@
 		};
 		ECEFDC262486BFEF00D862F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 789885D885F74F4EF39970A0 /* Pods-Fissure.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -345,6 +419,7 @@
 		};
 		ECEFDC272486BFEF00D862F6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C596C6E97D3E68F11C005FE6 /* Pods-Fissure.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
