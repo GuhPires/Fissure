@@ -17,17 +17,17 @@ class InsetTextField: UITextField {
         super.awakeFromNib()
     }
     
-    override func textRect(forBounds bounds: CGRect) -> CGRect {
-        return frame.inset(by: padding)
-    }
-    
-    override func editingRect(forBounds bounds: CGRect) -> CGRect {
-        return frame.inset(by: padding)
-    }
-    
-    override func placeholderRect(forBounds bounds: CGRect) -> CGRect {
-        return frame.inset(by: padding)
-    }
+//    override func textRect(forBounds bounds: CGRect) -> CGRect {
+//        return frame.inset(by: padding)
+//    }
+//
+//    override func editingRect(forBounds bounds: CGRect) -> CGRect {
+//        return frame.inset(by: padding)
+//    }
+//
+//    override func placeholderRect(forBounds bounds: CGRect) -> CGRect {
+//        return frame.inset(by: padding)
+//    }
     
     func setupView() {
         let placeholder = NSAttributedString(string: self.placeholder!, attributes: [NSAttributedString.Key.foregroundColor: UIColor(ciColor: .white)])
