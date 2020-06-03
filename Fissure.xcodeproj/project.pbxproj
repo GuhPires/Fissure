@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		7A9CBEF62F5BC0E58131B3C4 /* Pods_Fissure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF90CE33FE788F0C2958D34 /* Pods_Fissure.framework */; };
+		EC6AE0F02488140800048F7B /* AuthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6AE0EF2488140800048F7B /* AuthVC.swift */; };
+		EC6AE0F22488144D00048F7B /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6AE0F12488144D00048F7B /* LoginVC.swift */; };
+		EC6AE0F4248814AD00048F7B /* InsetTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6AE0F3248814AD00048F7B /* InsetTextField.swift */; };
 		EC98D92B2487100900211B77 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC98D92A2487100900211B77 /* GoogleService-Info.plist */; };
 		EC98D92D24871A6F00211B77 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC98D92C24871A6F00211B77 /* DataService.swift */; };
 		ECEFDC132486BFCA00D862F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEFDC122486BFCA00D862F6 /* AppDelegate.swift */; };
@@ -23,6 +26,9 @@
 		5AF90CE33FE788F0C2958D34 /* Pods_Fissure.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fissure.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		789885D885F74F4EF39970A0 /* Pods-Fissure.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fissure.debug.xcconfig"; path = "Target Support Files/Pods-Fissure/Pods-Fissure.debug.xcconfig"; sourceTree = "<group>"; };
 		C596C6E97D3E68F11C005FE6 /* Pods-Fissure.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fissure.release.xcconfig"; path = "Target Support Files/Pods-Fissure/Pods-Fissure.release.xcconfig"; sourceTree = "<group>"; };
+		EC6AE0EF2488140800048F7B /* AuthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthVC.swift; sourceTree = "<group>"; };
+		EC6AE0F12488144D00048F7B /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		EC6AE0F3248814AD00048F7B /* InsetTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetTextField.swift; sourceTree = "<group>"; };
 		EC98D92A2487100900211B77 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		EC98D92C24871A6F00211B77 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		ECEFDC0F2486BFCA00D862F6 /* Fissure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fissure.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -107,6 +113,8 @@
 			children = (
 				ECEFDC162486BFCB00D862F6 /* FirstViewController.swift */,
 				ECEFDC182486BFCB00D862F6 /* SecondViewController.swift */,
+				EC6AE0EF2488140800048F7B /* AuthVC.swift */,
+				EC6AE0F12488144D00048F7B /* LoginVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -114,6 +122,7 @@
 		ECEFDC292486C12D00D862F6 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				EC6AE0F3248814AD00048F7B /* InsetTextField.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -256,7 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC6AE0F02488140800048F7B /* AuthVC.swift in Sources */,
 				ECEFDC192486BFCB00D862F6 /* SecondViewController.swift in Sources */,
+				EC6AE0F22488144D00048F7B /* LoginVC.swift in Sources */,
+				EC6AE0F4248814AD00048F7B /* InsetTextField.swift in Sources */,
 				ECEFDC172486BFCB00D862F6 /* FirstViewController.swift in Sources */,
 				ECEFDC132486BFCA00D862F6 /* AppDelegate.swift in Sources */,
 				ECEFDC152486BFCB00D862F6 /* SceneDelegate.swift in Sources */,
