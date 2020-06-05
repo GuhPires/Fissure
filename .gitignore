@@ -22,3 +22,6 @@ Pods/
 # Sensitive Info
 Secrets.swift
 GoogleService-Info.plist
+
+# Misc
+
